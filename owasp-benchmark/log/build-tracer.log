@@ -1,0 +1,378 @@
+[T 15:31:48 70224] CodeQL CLI version 2.10.5
+[T 15:31:48 70224] Initializing tracer in Lua mode.
+[T 15:31:48 70224] Initialising tags...
+[T 15:31:48 70224] ID set to 0000000000011250_0000000000000001 (parent root)
+[T 15:31:48 70224] Initializing tracer in Lua mode.
+[T 15:31:48 70224] Initialising tags...
+[T 15:31:48 70224] ID set to 0000000000011250_0000000000000002 (parent root)
+[T 15:31:48 70224] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 15:31:48 70224] ==== Candidate to intercept: /Users/yukiendo/workplace/codeql/tools/osx64/runner-osx (canonical: /Users/yukiendo/workplace/codeql/tools/osx64/runner-osx) ====
+[T 15:31:48 70224] Lua: === Intercepted call to /users/yukiendo/workplace/codeql/tools/osx64/runner-osx ===
+[T 15:31:48 70224] Executing the following tracer actions:
+[T 15:31:48 70224] Tracer actions:
+[T 15:31:48 70224] pre_invocations(0)
+[T 15:31:48 70224] post_invocations(0)
+[T 15:31:48 70224] trace_languages(1): [java]
+[T 15:31:48 70225] Attempting to switch stdout/stderr to 3...
+/Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/bin/bash.semmle.00011250.slice.x86_64: replacing existing signature
+[T 15:31:48 70224] Initializing tracer in Lua mode.
+[T 15:31:48 70224] Initialising tags...
+[T 15:31:48 70224] ID set to 0000000000011250_0000000000000003 (parent 0000000000011250_0000000000000002)
+[T 15:31:48 70224] ==== Candidate to intercept: /Users/yukiendo/workplace/codeql/java/tools/autobuild.sh (canonical: /Users/yukiendo/workplace/codeql/java/tools/autobuild.sh) ====
+[T 15:31:48 70224] Lua: === Intercepted call to /users/yukiendo/workplace/codeql/java/tools/autobuild.sh ===
+[T 15:31:48 70224] Executing the following tracer actions:
+[T 15:31:48 70224] Tracer actions:
+[T 15:31:48 70224] pre_invocations(0)
+[T 15:31:48 70224] post_invocations(0)
+[T 15:31:48 70224] trace_languages(1): [java]
+[T 15:31:49 70232] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/Users/yukiendo/workplace/codeql/tools/osx64/java-aarch64/bin/java.semmle.00011257.slice.arm64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/Users/yukiendo/workplace/codeql/tools/osx64/java-aarch64/bin/java.semmle.00011257.slice.arm64
+/Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/Users/yukiendo/workplace/codeql/tools/osx64/java-aarch64/bin/java.semmle.00011257.slice.arm64: replacing existing signature
+[T 15:31:49 70231] Initializing tracer in Lua mode.
+[T 15:31:49 70231] Initialising tags...
+[T 15:31:49 70231] ID set to 0000000000011257_0000000000000001 (parent 0000000000011250_0000000000000003)
+[T 15:31:49 70231] ==== Candidate to intercept: /Users/yukiendo/workplace/codeql/tools/osx64/java-aarch64/bin/java (canonical: /Users/yukiendo/workplace/codeql/tools/osx64/java-aarch64/bin/java) ====
+[T 15:31:49 70231] Lua: === Intercepted call to /users/yukiendo/workplace/codeql/tools/osx64/java-aarch64/bin/java ===
+[T 15:31:49 70231] Executing the following tracer actions:
+[T 15:31:49 70231] Tracer actions:
+[T 15:31:49 70231] pre_invocations(0)
+[T 15:31:49 70231] post_invocations(0)
+[T 15:31:49 70231] trace_languages(1): [java]
+[T 15:31:49 70231] Passing through -javaagent:/Users/yukiendo/workplace/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 15:31:49 70231] Passing through -Xbootclasspath/a:/Users/yukiendo/workplace/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 15:31:49 70231] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/yukiendo/workplace/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/yukiendo/workplace/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 15:31:49 70242] Attempting to switch stdout/stderr to 20...
+/Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/Users/yukiendo/workplace/codeql/tools/osx64/java-aarch64/lib/jspawnhelper.semmle.00011257.slice.arm64: replacing existing signature
+[T 15:31:50 70245] Initializing tracer in Lua mode.
+[T 15:31:50 70245] Initialising tags...
+[T 15:31:50 70245] ID set to 0000000000011265_0000000000000001 (parent 0000000000011257_0000000000000001)
+[T 15:31:50 70245] ==== Candidate to intercept: /Users/yukiendo/workplace/codeql/tools/osx64/java-aarch64/lib/jspawnhelper (canonical: /Users/yukiendo/workplace/codeql/tools/osx64/java-aarch64/lib/jspawnhelper) ====
+[T 15:31:50 70245] Lua: === Intercepted call to /users/yukiendo/workplace/codeql/tools/osx64/java-aarch64/lib/jspawnhelper ===
+[T 15:31:50 70245] Executing the following tracer actions:
+[T 15:31:50 70245] Tracer actions:
+[T 15:31:50 70245] pre_invocations(0)
+[T 15:31:50 70245] post_invocations(0)
+[T 15:31:50 70245] trace_languages(1): [java]
+[T 15:31:50 70245] Initializing tracer in Lua mode.
+[T 15:31:50 70245] Initialising tags...
+[T 15:31:50 70245] ID set to 0000000000011265_0000000000000002 (parent 0000000000011265_0000000000000001)
+[T 15:31:50 70245] ==== Candidate to intercept: /opt/homebrew/bin/mvn (canonical: /opt/homebrew/Cellar/maven/3.8.5/bin/mvn) ====
+[T 15:31:50 70245] Lua: === Intercepted call to /opt/homebrew/cellar/maven/3.8.5/bin/mvn ===
+[T 15:31:50 70245] Executing the following tracer actions:
+[T 15:31:50 70245] Tracer actions:
+[T 15:31:50 70245] pre_invocations(0)
+[T 15:31:50 70245] post_invocations(0)
+[T 15:31:50 70245] trace_languages(1): [java]
+[T 15:31:50 70246] Attempting to switch stdout/stderr to 3...
+/Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/bin/sh.semmle.00011265.slice.x86_64: replacing existing signature
+[T 15:31:50 70245] Initializing tracer in Lua mode.
+[T 15:31:50 70245] Initialising tags...
+[T 15:31:50 70245] ID set to 0000000000011265_0000000000000003 (parent 0000000000011265_0000000000000002)
+[T 15:31:50 70245] ==== Candidate to intercept: /opt/homebrew/Cellar/maven/3.8.5/libexec/bin/mvn (canonical: /opt/homebrew/Cellar/maven/3.8.5/libexec/bin/mvn) ====
+[T 15:31:50 70245] Lua: === Intercepted call to /opt/homebrew/cellar/maven/3.8.5/libexec/bin/mvn ===
+[T 15:31:50 70245] Executing the following tracer actions:
+[T 15:31:50 70245] Tracer actions:
+[T 15:31:50 70245] pre_invocations(0)
+[T 15:31:50 70245] post_invocations(0)
+[T 15:31:50 70245] trace_languages(1): [java]
+[T 15:31:50 70245] Initializing tracer in Lua mode.
+[T 15:31:50 70245] Initialising tags...
+[T 15:31:50 70245] ID set to 0000000000011265_0000000000000004 (parent 0000000000011265_0000000000000003)
+[T 15:31:50 70245] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 15:31:50 70245] Lua: === Intercepted call to /bin/bash ===
+[T 15:31:50 70245] Executing the following tracer actions:
+[T 15:31:50 70245] Tracer actions:
+[T 15:31:50 70245] pre_invocations(0)
+[T 15:31:50 70245] post_invocations(0)
+[T 15:31:50 70245] trace_languages(1): [java]
+[T 15:31:50 70251] Attempting to switch stdout/stderr to 3...
+/Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/usr/bin/uname.semmle.0001126A.slice.x86_64: replacing existing signature
+[T 15:31:51 70250] Initializing tracer in Lua mode.
+[T 15:31:51 70250] Initialising tags...
+[T 15:31:51 70250] ID set to 000000000001126A_0000000000000001 (parent 0000000000011265_0000000000000004)
+[T 15:31:51 70250] ==== Candidate to intercept: /usr/bin/uname (canonical: /usr/bin/uname) ====
+[T 15:31:51 70250] Lua: === Intercepted call to /usr/bin/uname ===
+[T 15:31:51 70250] Executing the following tracer actions:
+[T 15:31:51 70250] Tracer actions:
+[T 15:31:51 70250] pre_invocations(0)
+[T 15:31:51 70250] post_invocations(0)
+[T 15:31:51 70250] trace_languages(1): [java]
+[T 15:31:51 70259] Attempting to switch stdout/stderr to 3...
+/Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/usr/bin/dirname.semmle.00011272.slice.x86_64: replacing existing signature
+[T 15:31:51 70258] Initializing tracer in Lua mode.
+[T 15:31:51 70258] Initialising tags...
+[T 15:31:51 70258] ID set to 0000000000011272_0000000000000001 (parent 0000000000011265_0000000000000004)
+[T 15:31:51 70258] ==== Candidate to intercept: /usr/bin/dirname (canonical: /usr/bin/dirname) ====
+[T 15:31:51 70258] Lua: === Intercepted call to /usr/bin/dirname ===
+[T 15:31:51 70258] Executing the following tracer actions:
+[T 15:31:51 70258] Tracer actions:
+[T 15:31:51 70258] pre_invocations(0)
+[T 15:31:51 70258] post_invocations(0)
+[T 15:31:51 70258] trace_languages(1): [java]
+[T 15:31:51 70271] Initializing tracer in Lua mode.
+[T 15:31:51 70271] Initialising tags...
+[T 15:31:51 70271] ID set to 000000000001127F_0000000000000001 (parent 0000000000011265_0000000000000004)
+[T 15:31:51 70271] ==== Candidate to intercept: /usr/bin/dirname (canonical: /usr/bin/dirname) ====
+[T 15:31:51 70271] Lua: === Intercepted call to /usr/bin/dirname ===
+[T 15:31:51 70271] Executing the following tracer actions:
+[T 15:31:51 70271] Tracer actions:
+[T 15:31:51 70271] pre_invocations(0)
+[T 15:31:51 70271] post_invocations(0)
+[T 15:31:51 70271] trace_languages(1): [java]
+[T 15:31:51 70274] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/bin/java.semmle.00011265.slice.arm64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/bin/java.semmle.00011265.slice.arm64
+/Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/bin/java.semmle.00011265.slice.arm64: replacing existing signature
+[T 15:31:52 70245] Initializing tracer in Lua mode.
+[T 15:31:52 70245] Initialising tags...
+[T 15:31:52 70245] ID set to 0000000000011265_0000000000000005 (parent 0000000000011265_0000000000000004)
+[T 15:31:52 70245] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/bin/java) ====
+[T 15:31:52 70245] Lua: === Intercepted call to /library/java/javavirtualmachines/zulu-15.jdk/contents/home/bin/java ===
+[T 15:31:52 70245] Executing the following tracer actions:
+[T 15:31:52 70245] Tracer actions:
+[T 15:31:52 70245] pre_invocations(0)
+[T 15:31:52 70245] post_invocations(0)
+[T 15:31:52 70245] trace_languages(1): [java]
+[T 15:31:52 70245] Passing through -javaagent:/Users/yukiendo/workplace/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 15:31:52 70245] Passing through -Xbootclasspath/a:/Users/yukiendo/workplace/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 15:31:52 70245] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/yukiendo/workplace/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/yukiendo/workplace/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 15:31:54 70279] Attempting to switch stdout/stderr to 113...
+/Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/lib/jspawnhelper.semmle.00011265.slice.arm64: replacing existing signature
+[T 15:31:54 70282] Initializing tracer in Lua mode.
+[T 15:31:54 70282] Initialising tags...
+[T 15:31:54 70282] ID set to 000000000001128A_0000000000000001 (parent 0000000000011265_0000000000000005)
+[T 15:31:54 70282] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 15:31:54 70282] Lua: === Intercepted call to /library/java/javavirtualmachines/zulu-15.jdk/contents/home/lib/jspawnhelper ===
+[T 15:31:54 70282] Executing the following tracer actions:
+[T 15:31:54 70282] Tracer actions:
+[T 15:31:54 70282] pre_invocations(0)
+[T 15:31:54 70282] post_invocations(0)
+[T 15:31:54 70282] trace_languages(1): [java]
+[T 15:31:54 70285] Attempting to switch stdout/stderr to 4...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/bin/javac.semmle.0001128A.slice.arm64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/bin/javac.semmle.0001128A.slice.arm64
+/Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/bin/javac.semmle.0001128A.slice.arm64: replacing existing signature
+[T 15:31:55 70282] Initializing tracer in Lua mode.
+[T 15:31:55 70282] Initialising tags...
+[T 15:31:55 70282] ID set to 000000000001128A_0000000000000002 (parent 000000000001128A_0000000000000001)
+[T 15:31:55 70282] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/bin/javac (canonical: /Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/bin/javac) ====
+[T 15:31:55 70282] Lua: === Intercepted call to /library/java/javavirtualmachines/zulu-15.jdk/contents/home/bin/javac ===
+[T 15:31:55 70282] Executing the following tracer actions:
+[T 15:31:55 70282] Tracer actions:
+[T 15:31:55 70282] pre_invocations(0)
+[T 15:31:55 70282] post_invocations(0)
+[T 15:31:55 70282] trace_languages(1): [java]
+[T 15:31:55 70282] Passing through -javaagent:/Users/yukiendo/workplace/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 15:31:55 70282] Passing through -Xbootclasspath/a:/Users/yukiendo/workplace/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 15:31:55 70282] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/yukiendo/workplace/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/yukiendo/workplace/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 15:31:59 70304] Initializing tracer in Lua mode.
+[T 15:31:59 70304] Initialising tags...
+[T 15:31:59 70304] ID set to 00000000000112A0_0000000000000001 (parent 000000000001128A_0000000000000002)
+[T 15:31:59 70304] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 15:31:59 70304] Lua: === Intercepted call to /library/java/javavirtualmachines/zulu-15.jdk/contents/home/lib/jspawnhelper ===
+[T 15:31:59 70304] Executing the following tracer actions:
+[T 15:31:59 70304] Tracer actions:
+[T 15:31:59 70304] pre_invocations(0)
+[T 15:31:59 70304] post_invocations(0)
+[T 15:31:59 70304] trace_languages(1): [java]
+[T 15:31:59 70304] Initializing tracer in Lua mode.
+[T 15:31:59 70304] Initialising tags...
+[T 15:31:59 70304] ID set to 00000000000112A0_0000000000000002 (parent 00000000000112A0_0000000000000001)
+[T 15:31:59 70304] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/bin/java (canonical: /Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/bin/java) ====
+[T 15:31:59 70304] Lua: === Intercepted call to /library/java/javavirtualmachines/zulu-15.jdk/contents/home/bin/java ===
+[T 15:31:59 70304] Executing the following tracer actions:
+[T 15:31:59 70304] Tracer actions:
+[T 15:31:59 70304] pre_invocations(0)
+[T 15:31:59 70304] post_invocations(0)
+[T 15:31:59 70304] trace_languages(1): [java]
+[T 15:31:59 70304] Passing through -javaagent:/Users/yukiendo/workplace/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental to underlying JVM.
+[T 15:31:59 70304] Passing through -Xbootclasspath/a:/Users/yukiendo/workplace/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 15:32:00 70304] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/yukiendo/workplace/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin:experimental' '-Xbootclasspath/a:/Users/yukiendo/workplace/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 15:33:19 70441] Initializing tracer in Lua mode.
+[T 15:33:19 70441] Initialising tags...
+[T 15:33:19 70441] ID set to 0000000000011329_0000000000000001 (parent 0000000000011265_0000000000000005)
+[T 15:33:19 70441] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 15:33:19 70441] Lua: === Intercepted call to /library/java/javavirtualmachines/zulu-15.jdk/contents/home/lib/jspawnhelper ===
+[T 15:33:19 70441] Executing the following tracer actions:
+[T 15:33:19 70441] Tracer actions:
+[T 15:33:19 70441] pre_invocations(0)
+[T 15:33:19 70441] post_invocations(0)
+[T 15:33:19 70441] trace_languages(1): [java]
+[T 15:33:19 70441] Initializing tracer in Lua mode.
+[T 15:33:19 70441] Initialising tags...
+[T 15:33:19 70441] ID set to 0000000000011329_0000000000000002 (parent 0000000000011329_0000000000000001)
+[T 15:33:19 70441] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 15:33:19 70441] Lua: === Intercepted call to /bin/bash ===
+[T 15:33:19 70441] Executing the following tracer actions:
+[T 15:33:19 70441] Tracer actions:
+[T 15:33:19 70441] pre_invocations(0)
+[T 15:33:19 70441] post_invocations(0)
+[T 15:33:19 70441] trace_languages(1): [java]
+[T 15:33:19 70444] Attempting to switch stdout/stderr to 3...
+/Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/usr/libexec/path_helper.semmle.0001132B.slice.x86_64: replacing existing signature
+[T 15:33:19 70443] Initializing tracer in Lua mode.
+[T 15:33:19 70443] Initialising tags...
+[T 15:33:19 70443] ID set to 000000000001132B_0000000000000001 (parent 0000000000011329_0000000000000002)
+[T 15:33:19 70443] ==== Candidate to intercept: /usr/libexec/path_helper (canonical: /usr/libexec/path_helper) ====
+[T 15:33:19 70443] Lua: === Intercepted call to /usr/libexec/path_helper ===
+[T 15:33:19 70443] Executing the following tracer actions:
+[T 15:33:19 70443] Tracer actions:
+[T 15:33:19 70443] pre_invocations(0)
+[T 15:33:19 70443] post_invocations(0)
+[T 15:33:19 70443] trace_languages(1): [java]
+[T 15:33:19 70452] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/Users/yukiendo/.micromamba/bin/micromamba.semmle.00011333.slice.arm64
+/Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/Users/yukiendo/.micromamba/bin/micromamba.semmle.00011333.slice.arm64: replacing existing signature
+[T 15:33:20 70451] Initializing tracer in Lua mode.
+[T 15:33:20 70451] Initialising tags...
+[T 15:33:20 70451] ID set to 0000000000011333_0000000000000001 (parent 0000000000011329_0000000000000002)
+[T 15:33:20 70451] ==== Candidate to intercept: /Users/yukiendo/.micromamba/bin/micromamba (canonical: /Users/yukiendo/.micromamba/bin/micromamba) ====
+[T 15:33:20 70451] Lua: === Intercepted call to /users/yukiendo/.micromamba/bin/micromamba ===
+[T 15:33:20 70451] Executing the following tracer actions:
+[T 15:33:20 70451] Tracer actions:
+[T 15:33:20 70451] pre_invocations(0)
+[T 15:33:20 70451] post_invocations(0)
+[T 15:33:20 70451] trace_languages(1): [java]
+[T 15:33:20 70458] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/Users/yukiendo/micromamba/bin/python.semmle.00011339.slice.arm64
+/Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/Users/yukiendo/micromamba/bin/python.semmle.00011339.slice.arm64: replacing existing signature
+[T 15:33:20 70457] Initializing tracer in Lua mode.
+[T 15:33:20 70457] Initialising tags...
+[T 15:33:20 70457] ID set to 0000000000011339_0000000000000001 (parent 0000000000011329_0000000000000002)
+[T 15:33:20 70457] ==== Candidate to intercept: /Users/yukiendo/micromamba/bin/conda (canonical: /Users/yukiendo/micromamba/bin/conda) ====
+[T 15:33:20 70457] Lua: === Intercepted call to /users/yukiendo/micromamba/bin/conda ===
+[T 15:33:20 70457] Executing the following tracer actions:
+[T 15:33:20 70457] Tracer actions:
+[T 15:33:20 70457] pre_invocations(0)
+[T 15:33:20 70457] post_invocations(0)
+[T 15:33:20 70457] trace_languages(1): [java]
+[T 15:33:20 70467] Initializing tracer in Lua mode.
+[T 15:33:20 70467] Initialising tags...
+[T 15:33:20 70467] ID set to 0000000000011343_0000000000000001 (parent 0000000000011329_0000000000000002)
+[T 15:33:20 70467] ==== Candidate to intercept: /usr/bin/dirname (canonical: /usr/bin/dirname) ====
+[T 15:33:20 70467] Lua: === Intercepted call to /usr/bin/dirname ===
+[T 15:33:20 70467] Executing the following tracer actions:
+[T 15:33:20 70467] Tracer actions:
+[T 15:33:20 70467] pre_invocations(0)
+[T 15:33:20 70467] post_invocations(0)
+[T 15:33:20 70467] trace_languages(1): [java]
+[T 15:33:20 70469] Initializing tracer in Lua mode.
+[T 15:33:20 70469] Initialising tags...
+[T 15:33:20 70469] ID set to 0000000000011345_0000000000000001 (parent 0000000000011329_0000000000000002)
+[T 15:33:20 70469] ==== Candidate to intercept: /usr/bin/dirname (canonical: /usr/bin/dirname) ====
+[T 15:33:20 70469] Lua: === Intercepted call to /usr/bin/dirname ===
+[T 15:33:20 70469] Executing the following tracer actions:
+[T 15:33:20 70469] Tracer actions:
+[T 15:33:20 70469] pre_invocations(0)
+[T 15:33:20 70469] post_invocations(0)
+[T 15:33:20 70469] trace_languages(1): [java]
+[T 15:33:20 70470] Initializing tracer in Lua mode.
+[T 15:33:20 70470] Initialising tags...
+[T 15:33:20 70470] ID set to 0000000000011346_0000000000000001 (parent 0000000000011329_0000000000000002)
+[T 15:33:20 70470] ==== Candidate to intercept: /Users/yukiendo/micromamba/bin/conda (canonical: /Users/yukiendo/micromamba/bin/conda) ====
+[T 15:33:20 70470] Lua: === Intercepted call to /users/yukiendo/micromamba/bin/conda ===
+[T 15:33:20 70470] Executing the following tracer actions:
+[T 15:33:20 70470] Tracer actions:
+[T 15:33:20 70470] pre_invocations(0)
+[T 15:33:20 70470] post_invocations(0)
+[T 15:33:20 70470] trace_languages(1): [java]
+[T 15:33:21 70471] Attempting to switch stdout/stderr to 3...
+/Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/usr/bin/which.semmle.00011329.slice.x86_64: replacing existing signature
+[T 15:33:21 70441] Initializing tracer in Lua mode.
+[T 15:33:21 70441] Initialising tags...
+[T 15:33:21 70441] ID set to 0000000000011329_0000000000000003 (parent 0000000000011329_0000000000000002)
+[T 15:33:21 70441] ==== Candidate to intercept: /usr/bin/which (canonical: /usr/bin/which) ====
+[T 15:33:21 70441] Lua: === Intercepted call to /usr/bin/which ===
+[T 15:33:21 70441] Executing the following tracer actions:
+[T 15:33:21 70441] Tracer actions:
+[T 15:33:21 70441] pre_invocations(0)
+[T 15:33:21 70441] post_invocations(0)
+[T 15:33:21 70441] trace_languages(1): [java]
+[T 15:33:21 70475] Initializing tracer in Lua mode.
+[T 15:33:21 70475] Initialising tags...
+[T 15:33:21 70475] ID set to 000000000001134B_0000000000000001 (parent 0000000000011265_0000000000000005)
+[T 15:33:21 70475] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 15:33:21 70475] Lua: === Intercepted call to /library/java/javavirtualmachines/zulu-15.jdk/contents/home/lib/jspawnhelper ===
+[T 15:33:21 70475] Executing the following tracer actions:
+[T 15:33:21 70475] Tracer actions:
+[T 15:33:21 70475] pre_invocations(0)
+[T 15:33:21 70475] post_invocations(0)
+[T 15:33:21 70475] trace_languages(1): [java]
+[T 15:33:21 70476] Attempting to switch stdout/stderr to 4...
+/Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/usr/bin/xcode-select.semmle.0001134B.slice.x86_64: replacing existing signature
+[T 15:33:21 70475] Initializing tracer in Lua mode.
+[T 15:33:21 70475] Initialising tags...
+[T 15:33:21 70475] ID set to 000000000001134B_0000000000000002 (parent 000000000001134B_0000000000000001)
+[T 15:33:21 70475] ==== Candidate to intercept: /usr/bin/xcode-select (canonical: /usr/bin/xcode-select) ====
+[T 15:33:21 70475] Lua: === Intercepted call to /usr/bin/xcode-select ===
+[T 15:33:21 70475] Executing the following tracer actions:
+[T 15:33:21 70475] Tracer actions:
+[T 15:33:21 70475] pre_invocations(0)
+[T 15:33:21 70475] post_invocations(0)
+[T 15:33:21 70475] trace_languages(1): [java]
+[T 15:33:21 70480] Initializing tracer in Lua mode.
+[T 15:33:21 70480] Initialising tags...
+[T 15:33:21 70480] ID set to 0000000000011350_0000000000000001 (parent 0000000000011265_0000000000000005)
+[T 15:33:21 70480] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 15:33:21 70480] Lua: === Intercepted call to /library/java/javavirtualmachines/zulu-15.jdk/contents/home/lib/jspawnhelper ===
+[T 15:33:21 70480] Executing the following tracer actions:
+[T 15:33:21 70480] Tracer actions:
+[T 15:33:21 70480] pre_invocations(0)
+[T 15:33:21 70480] post_invocations(0)
+[T 15:33:21 70480] trace_languages(1): [java]
+[T 15:33:21 70481] Attempting to switch stdout/stderr to 4...
+/Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/usr/bin/git.semmle.00011350.slice.x86_64: replacing existing signature
+[T 15:33:22 70480] Initializing tracer in Lua mode.
+[T 15:33:22 70480] Initialising tags...
+[T 15:33:22 70480] ID set to 0000000000011350_0000000000000002 (parent 0000000000011350_0000000000000001)
+[T 15:33:22 70480] ==== Candidate to intercept: /usr/bin/git (canonical: /usr/bin/git) ====
+[T 15:33:22 70480] Lua: === Intercepted call to /usr/bin/git ===
+[T 15:33:22 70480] Executing the following tracer actions:
+[T 15:33:22 70480] Tracer actions:
+[T 15:33:22 70480] pre_invocations(0)
+[T 15:33:22 70480] post_invocations(0)
+[T 15:33:22 70480] trace_languages(1): [java]
+[T 15:33:22 70485] Attempting to switch stdout/stderr to 3...
+/Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/Library/Developer/CommandLineTools/usr/bin/git.semmle.00011350.slice.x86_64: replacing existing signature
+/Users/yukiendo/workplace/OWASP-Benchmark/owasp-benchmark/working/copy-root/000001F5/Library/Developer/CommandLineTools/usr/bin/git.semmle.00011350.slice.arm64: replacing existing signature
+[T 15:33:22 70480] Initializing tracer in Lua mode.
+[T 15:33:22 70480] Initialising tags...
+[T 15:33:22 70480] ID set to 0000000000011350_0000000000000003 (parent 0000000000011350_0000000000000002)
+[T 15:33:22 70480] ==== Candidate to intercept: /Library/Developer/CommandLineTools/usr/bin/git (canonical: /Library/Developer/CommandLineTools/usr/bin/git) ====
+[T 15:33:22 70480] Lua: === Intercepted call to /library/developer/commandlinetools/usr/bin/git ===
+[T 15:33:22 70480] Executing the following tracer actions:
+[T 15:33:22 70480] Tracer actions:
+[T 15:33:22 70480] pre_invocations(0)
+[T 15:33:22 70480] post_invocations(0)
+[T 15:33:22 70480] trace_languages(1): [java]
+[T 15:33:22 70490] Initializing tracer in Lua mode.
+[T 15:33:22 70490] Initialising tags...
+[T 15:33:22 70490] ID set to 000000000001135A_0000000000000001 (parent 0000000000011265_0000000000000005)
+[T 15:33:22 70490] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/zulu-15.jdk/Contents/Home/lib/jspawnhelper) ====
+[T 15:33:22 70490] Lua: === Intercepted call to /library/java/javavirtualmachines/zulu-15.jdk/contents/home/lib/jspawnhelper ===
+[T 15:33:22 70490] Executing the following tracer actions:
+[T 15:33:22 70490] Tracer actions:
+[T 15:33:22 70490] pre_invocations(0)
+[T 15:33:22 70490] post_invocations(0)
+[T 15:33:22 70490] trace_languages(1): [java]
+[T 15:33:22 70490] Initializing tracer in Lua mode.
+[T 15:33:22 70490] Initialising tags...
+[T 15:33:22 70490] ID set to 000000000001135A_0000000000000002 (parent 000000000001135A_0000000000000001)
+[T 15:33:22 70490] ==== Candidate to intercept: /usr/bin/git (canonical: /usr/bin/git) ====
+[T 15:33:22 70490] Lua: === Intercepted call to /usr/bin/git ===
+[T 15:33:22 70490] Executing the following tracer actions:
+[T 15:33:22 70490] Tracer actions:
+[T 15:33:22 70490] pre_invocations(0)
+[T 15:33:22 70490] post_invocations(0)
+[T 15:33:22 70490] trace_languages(1): [java]
+[T 15:33:22 70490] Initializing tracer in Lua mode.
+[T 15:33:22 70490] Initialising tags...
+[T 15:33:22 70490] ID set to 000000000001135A_0000000000000003 (parent 000000000001135A_0000000000000002)
+[T 15:33:22 70490] ==== Candidate to intercept: /Library/Developer/CommandLineTools/usr/bin/git (canonical: /Library/Developer/CommandLineTools/usr/bin/git) ====
+[T 15:33:22 70490] Lua: === Intercepted call to /library/developer/commandlinetools/usr/bin/git ===
+[T 15:33:22 70490] Executing the following tracer actions:
+[T 15:33:22 70490] Tracer actions:
+[T 15:33:22 70490] pre_invocations(0)
+[T 15:33:22 70490] post_invocations(0)
+[T 15:33:22 70490] trace_languages(1): [java]

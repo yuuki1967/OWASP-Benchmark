@@ -1,0 +1,10 @@
+---
+sourceLocationPrefix: "/Users/yukiendo/workplace/OWASP-Benchmark"
+baselineLinesOfCode: 191616
+unicodeNewlines: false
+columnKind: "utf16"
+primaryLanguage: "java"
+creationMetadata:
+  sha: "a05a3d711690832d1bae5f010ae04c8be45ea198"
+  cliVersion: "2.10.5"
+  creationTime: "2023-01-05T06:31:48.500031Z"

@@ -10,5 +10,6 @@
 # This script assumes the owasp-benchmark database has already been initialized by running this first:
 # ../../Tools/codeql-home/codeql/codeql database create owasp-benchmark --language=java
 #../../Tools/codeql-home/codeql/codeql database analyze owasp-benchmark java-security-extended.qls --format=sarifv2.1.0 --output=results/Benchmark_1.2-codeql_java-security-extended.sarif
-../../Tools/codeql-home/codeql/codeql database analyze owasp-benchmark java-security-and-quality.qls --format=sarifv2.1.0 --output=results/Benchmark_1.2-codeql_java-security-and-quality.sarif
+#../../Tools/codeql-home/codeql/codeql database analyze owasp-benchmark java-security-and-quality.qls --format=sarifv2.1.0 --output=results/Benchmark_1.2-codeql_java-security-and-quality.sarif
+codeql database analyze owasp-benchmark java-security-and-quality.qls --format=sarifv2.1.0 --output=results/Benchmark_1.2-codeql_java-security-and-quality.sarif
 
